@@ -10,13 +10,13 @@
         <form id="form" action = {{route('uploadStuff')}} method="post" class="d-inline" enctype="multipart/form-data">
         @csrf
             <label
-            for="file-form"
+            for="file-form-1"
         class="btn btn-info text-light"
         id="insert-new-stuff-file-button">
             <i class="fas fa-file-upload "></i>
             ارسال از طریق فایل
         </label>
-        <input type="file" id="file-form" style="display: none" name="file">
+        <input type="file" id="file-form-1" style="display: none" name="file">
         </form>
     </div>
 
